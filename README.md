@@ -1,6 +1,6 @@
 # NEAR FeeLens
 
-A local, reproducible evidence app and conditional long-term thesis for state-growing NEAR applications: low consumed-gas value does not remove the balance tied to retained state. Inspect real price anchors, change declared workloads and compare storage-balance stocks without confusing them with cumulative spending. This is an unpublished programming-contest draft, not a submitted entry or a claimed award.
+A local, reproducible evidence app and conditional long-term thesis for state-growing NEAR applications: low consumed-gas value does not remove the balance tied to retained state. Inspect real price anchors, change declared workloads and compare storage-balance stocks without confusing them with cumulative spending. This is a public programming-contest draft, not a submitted entry or a claimed award.
 
 ## Run it without accounts or installations
 
