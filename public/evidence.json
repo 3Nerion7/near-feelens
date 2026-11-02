@@ -1,0 +1,486 @@
+{
+  "schema": 1,
+  "project": "NEAR FeeLens",
+  "captured_at_utc": "2026-11-02T19:31:55.068Z",
+  "network": "mainnet",
+  "endpoint": "https://free.rpc.fastnear.com",
+  "scope": "Public read-only JSON-RPC, no credentials, signatures or transactions",
+  "initial_feasibility_calls": 3,
+  "capture_calls": 25,
+  "total_calls": 28,
+  "request_limit": 30,
+  "rate": "at most one request per second",
+  "selection": "24 finalized consecutive ancestors by prev_hash; heights may skip if the chain skipped a slot",
+  "blocks": [
+    {
+      "file": "data/raw/block-00.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-00",
+        "method": "block",
+        "params": {
+          "finality": "final"
+        }
+      },
+      "at_utc": "2026-11-02T19:31:55.071Z",
+      "http": 200,
+      "bytes": 20272,
+      "sha256": "9cc284dd3a7a3b38aa2d5dcdecde904061577934d5110d642d1d70c20febf8a9",
+      "block_hash": "HXn2QW9WLX7EHRUkMkq6pMnS9miokDUGMF1HpGdFsHro",
+      "height": 222762818
+    },
+    {
+      "file": "data/raw/block-01.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-01",
+        "method": "block",
+        "params": {
+          "block_id": "92P2npSb2pcb7HDMETQNxM5NLPiH5ZodfGExUYwdnTXm"
+        }
+      },
+      "at_utc": "2026-11-02T19:31:56.072Z",
+      "http": 200,
+      "bytes": 20982,
+      "sha256": "03eb51d31b0026cb5959f281f7671568af12d49a74a9c4ffff31f945abc111a0",
+      "block_hash": "92P2npSb2pcb7HDMETQNxM5NLPiH5ZodfGExUYwdnTXm",
+      "height": 222762817
+    },
+    {
+      "file": "data/raw/block-02.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-02",
+        "method": "block",
+        "params": {
+          "block_id": "34zSXhqkm3BhhNq7QyUVjhkRnoiu4NPz6M4zTA2MGBsM"
+        }
+      },
+      "at_utc": "2026-11-02T19:31:57.083Z",
+      "http": 200,
+      "bytes": 18927,
+      "sha256": "0be88f34c15a9ce2620386ad1b9a12363a03e463909c8b0170aff68df0f1c528",
+      "block_hash": "34zSXhqkm3BhhNq7QyUVjhkRnoiu4NPz6M4zTA2MGBsM",
+      "height": 222762816
+    },
+    {
+      "file": "data/raw/block-03.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-03",
+        "method": "block",
+        "params": {
+          "block_id": "5jfk7rEw5Fy7GFLf3ChBNUpuQQU8ZWotfC8h7ntDAy7a"
+        }
+      },
+      "at_utc": "2026-11-02T19:31:58.093Z",
+      "http": 200,
+      "bytes": 21000,
+      "sha256": "5c1d80c087cc34691c356995cc8d4bab84a78b460fa5ace25f581c7dabc8e31f",
+      "block_hash": "5jfk7rEw5Fy7GFLf3ChBNUpuQQU8ZWotfC8h7ntDAy7a",
+      "height": 222762815
+    },
+    {
+      "file": "data/raw/block-04.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-04",
+        "method": "block",
+        "params": {
+          "block_id": "HBZ64UMmQTP8R15EaS7aMk3pL6efQn9mTY37K1VwGnT8"
+        }
+      },
+      "at_utc": "2026-11-02T19:31:59.094Z",
+      "http": 200,
+      "bytes": 19506,
+      "sha256": "99603a20173e5bea2d93ff77d189225495a77ef91d846044281159805a095327",
+      "block_hash": "HBZ64UMmQTP8R15EaS7aMk3pL6efQn9mTY37K1VwGnT8",
+      "height": 222762814
+    },
+    {
+      "file": "data/raw/block-05.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-05",
+        "method": "block",
+        "params": {
+          "block_id": "FatF1pyX5T7fHBEDqJPhMW6DqMSRVyTfLeqBTmcwoqL5"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:00.105Z",
+      "http": 200,
+      "bytes": 19381,
+      "sha256": "183c233dbabbf0fac6a291482d254109f33f9019d9071eb5f734c34dd0c17cb5",
+      "block_hash": "FatF1pyX5T7fHBEDqJPhMW6DqMSRVyTfLeqBTmcwoqL5",
+      "height": 222762813
+    },
+    {
+      "file": "data/raw/block-06.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-06",
+        "method": "block",
+        "params": {
+          "block_id": "4TupRDcoYrRuDDqvKhMq4mXyqWNh9Mjo2vGQH48hRgKZ"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:01.112Z",
+      "http": 200,
+      "bytes": 18994,
+      "sha256": "1f727150d7e27c639532af904dc4641d9446591cb6b14b02d0d7b33c69bb0b8c",
+      "block_hash": "4TupRDcoYrRuDDqvKhMq4mXyqWNh9Mjo2vGQH48hRgKZ",
+      "height": 222762812
+    },
+    {
+      "file": "data/raw/block-07.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-07",
+        "method": "block",
+        "params": {
+          "block_id": "GGvid5AFEAozmCqK8A1LnjW7RUR2pvKKWTPC2qgxj2to"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:02.120Z",
+      "http": 200,
+      "bytes": 20230,
+      "sha256": "342dca7b5d9fc439e5f7fd6034ec87e1db6bce8bd7207db6790ee4db883f6a35",
+      "block_hash": "GGvid5AFEAozmCqK8A1LnjW7RUR2pvKKWTPC2qgxj2to",
+      "height": 222762811
+    },
+    {
+      "file": "data/raw/block-08.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-08",
+        "method": "block",
+        "params": {
+          "block_id": "7JqmaqYdGDfEcutVxupiP37MYPzGmCnysBm8oM4Xv2X1"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:03.133Z",
+      "http": 200,
+      "bytes": 19031,
+      "sha256": "8192b6e8a19a7b5706a767c14a4368f340e12496e23e8da9070b7d67ffe1446c",
+      "block_hash": "7JqmaqYdGDfEcutVxupiP37MYPzGmCnysBm8oM4Xv2X1",
+      "height": 222762810
+    },
+    {
+      "file": "data/raw/block-09.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-09",
+        "method": "block",
+        "params": {
+          "block_id": "AAurkamk93AEJ5YpH5tTehSD5PJ3Sc1dmdYqJpwqH8Pf"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:04.133Z",
+      "http": 200,
+      "bytes": 20525,
+      "sha256": "b49275bb88215a0cb0e1738041be290928834381a083193163012ece12200653",
+      "block_hash": "AAurkamk93AEJ5YpH5tTehSD5PJ3Sc1dmdYqJpwqH8Pf",
+      "height": 222762809
+    },
+    {
+      "file": "data/raw/block-10.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-10",
+        "method": "block",
+        "params": {
+          "block_id": "CLyV5MwWqsAiVcH6rG2692cxuM2dzrkmwVCVgrPP8kaU"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:05.143Z",
+      "http": 200,
+      "bytes": 20015,
+      "sha256": "a2d2205b2ae63a5fe8b0aaa99624672b103e441d1a9864cfa471779b83aad480",
+      "block_hash": "CLyV5MwWqsAiVcH6rG2692cxuM2dzrkmwVCVgrPP8kaU",
+      "height": 222762808
+    },
+    {
+      "file": "data/raw/block-11.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-11",
+        "method": "block",
+        "params": {
+          "block_id": "Bo2dgzfvwbW5zrrQTmayv2vGXocL3UABBRixx8pfMYmp"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:06.147Z",
+      "http": 200,
+      "bytes": 19238,
+      "sha256": "71c16ba290d45af579c9b1402cd135681a82db3d085cc4447c88849337c631e1",
+      "block_hash": "Bo2dgzfvwbW5zrrQTmayv2vGXocL3UABBRixx8pfMYmp",
+      "height": 222762807
+    },
+    {
+      "file": "data/raw/block-12.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-12",
+        "method": "block",
+        "params": {
+          "block_id": "3FfGn178CG24t4ovveXj5nTawAk8kFdgwS4MpnR7SA6X"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:07.163Z",
+      "http": 200,
+      "bytes": 19194,
+      "sha256": "c70eccb49483b6013d96f6bd0cbb1624a87efa602cf60e7da1971bff90467b3c",
+      "block_hash": "3FfGn178CG24t4ovveXj5nTawAk8kFdgwS4MpnR7SA6X",
+      "height": 222762806
+    },
+    {
+      "file": "data/raw/block-13.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-13",
+        "method": "block",
+        "params": {
+          "block_id": "2VZV4voYX3KbUdV2kZSe3aAow7kLqzRcbwXJeV5tvuJn"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:08.178Z",
+      "http": 200,
+      "bytes": 19747,
+      "sha256": "ce181437ab7ea0bf65e03c1050297bb4c798a1f11299d7b7a991fc22c5105eec",
+      "block_hash": "2VZV4voYX3KbUdV2kZSe3aAow7kLqzRcbwXJeV5tvuJn",
+      "height": 222762805
+    },
+    {
+      "file": "data/raw/block-14.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-14",
+        "method": "block",
+        "params": {
+          "block_id": "DUWPvipJWrkkiAA29Hbroa9swnk15VVo5riUgvDepaHo"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:09.192Z",
+      "http": 200,
+      "bytes": 18417,
+      "sha256": "1c3086226ab01626f6ea7a2333aafb966167ac8e5f7c3e158a8ecc0ba9ea9a73",
+      "block_hash": "DUWPvipJWrkkiAA29Hbroa9swnk15VVo5riUgvDepaHo",
+      "height": 222762804
+    },
+    {
+      "file": "data/raw/block-15.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-15",
+        "method": "block",
+        "params": {
+          "block_id": "75nZxUeVeihSTYnx8a15VrVHeX9FjUr5uP8qUE84TW2J"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:10.202Z",
+      "http": 200,
+      "bytes": 19232,
+      "sha256": "bbd5ccb51315c0da18f18eabd6f4d5b2639395c4ee91499f64779ce8e224a475",
+      "block_hash": "75nZxUeVeihSTYnx8a15VrVHeX9FjUr5uP8qUE84TW2J",
+      "height": 222762803
+    },
+    {
+      "file": "data/raw/block-16.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-16",
+        "method": "block",
+        "params": {
+          "block_id": "ADCpz159GVmRyuFUMNQkC2txDDGwWFErbc3TWtzyGFZa"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:11.216Z",
+      "http": 200,
+      "bytes": 21026,
+      "sha256": "223ca5f53963048b5f0979a29b989f9b9d06db0f748033f241b8cf65b47e4195",
+      "block_hash": "ADCpz159GVmRyuFUMNQkC2txDDGwWFErbc3TWtzyGFZa",
+      "height": 222762802
+    },
+    {
+      "file": "data/raw/block-17.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-17",
+        "method": "block",
+        "params": {
+          "block_id": "HT8prQ7Ca3NjFPpc2J3NXywtSrjsihqWcwoqcwSoBHYV"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:12.223Z",
+      "http": 200,
+      "bytes": 20540,
+      "sha256": "4dc32c4abefd700a3c5a326eeda4545658c3796f37f6b038eb7e8ff3cbc9aa8f",
+      "block_hash": "HT8prQ7Ca3NjFPpc2J3NXywtSrjsihqWcwoqcwSoBHYV",
+      "height": 222762801
+    },
+    {
+      "file": "data/raw/block-18.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-18",
+        "method": "block",
+        "params": {
+          "block_id": "b9iEhEBmqyYXuUXo2kSNyYyeTwJxZbVvkb8LVsrBv5y"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:13.229Z",
+      "http": 200,
+      "bytes": 20029,
+      "sha256": "02b153e10f5112e38daad051c41c01ed2aed2630f83907d774ab20aa76212efc",
+      "block_hash": "b9iEhEBmqyYXuUXo2kSNyYyeTwJxZbVvkb8LVsrBv5y",
+      "height": 222762800
+    },
+    {
+      "file": "data/raw/block-19.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-19",
+        "method": "block",
+        "params": {
+          "block_id": "DGKMSWZE5ZbpdyKzxN1SFNBLmni7gYrmy3UQ2PX32mXC"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:14.231Z",
+      "http": 200,
+      "bytes": 19683,
+      "sha256": "2d1eb3c797ed6c4370be34781e9feefcd1ac4d657c642f2e828e864f62d832cd",
+      "block_hash": "DGKMSWZE5ZbpdyKzxN1SFNBLmni7gYrmy3UQ2PX32mXC",
+      "height": 222762799
+    },
+    {
+      "file": "data/raw/block-20.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-20",
+        "method": "block",
+        "params": {
+          "block_id": "4okgUpfMfBLFtcmabhLWvG2LF91riYMtxNVhsX5eN7ke"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:15.232Z",
+      "http": 200,
+      "bytes": 18941,
+      "sha256": "85d1157e829986a721b235f891ec24bdf11889749301edc2b2123ba96e2ca5ea",
+      "block_hash": "4okgUpfMfBLFtcmabhLWvG2LF91riYMtxNVhsX5eN7ke",
+      "height": 222762798
+    },
+    {
+      "file": "data/raw/block-21.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-21",
+        "method": "block",
+        "params": {
+          "block_id": "8cuU1VHS83xzUh2JQqpkHP7ctHbxPgYESoUsUCEUbdob"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:16.241Z",
+      "http": 200,
+      "bytes": 18159,
+      "sha256": "011ee730c5984cde340bfe3bbeabb840a4b459987b7a684d91acdb3a6431abbd",
+      "block_hash": "8cuU1VHS83xzUh2JQqpkHP7ctHbxPgYESoUsUCEUbdob",
+      "height": 222762797
+    },
+    {
+      "file": "data/raw/block-22.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-22",
+        "method": "block",
+        "params": {
+          "block_id": "91kXXYr4NvDyKgzWuZ9xtRCDdMJGKoMPQsKCAqSqQWDv"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:17.245Z",
+      "http": 200,
+      "bytes": 18730,
+      "sha256": "7826814b6fbd6629cd1c4409a4968e80110f4e6e13a6c608b250c93a44dbbd65",
+      "block_hash": "91kXXYr4NvDyKgzWuZ9xtRCDdMJGKoMPQsKCAqSqQWDv",
+      "height": 222762796
+    },
+    {
+      "file": "data/raw/block-23.json",
+      "endpoint": "https://free.rpc.fastnear.com",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": "feelens-block-23",
+        "method": "block",
+        "params": {
+          "block_id": "36PrbggZ9G1rpuJNAgQkkfQTNUxeioqxVV7mUrnDoovo"
+        }
+      },
+      "at_utc": "2026-11-02T19:32:18.254Z",
+      "http": 200,
+      "bytes": 18338,
+      "sha256": "c068e0dda31bebb678dcb95f76304800b018b07a884b4b0c52deef72b8b6860d",
+      "block_hash": "36PrbggZ9G1rpuJNAgQkkfQTNUxeioqxVV7mUrnDoovo",
+      "height": 222762795
+    }
+  ],
+  "protocol": {
+    "file": "data/raw/protocol-config.json",
+    "endpoint": "https://free.rpc.fastnear.com",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": "feelens-protocol-config",
+      "method": "EXPERIMENTAL_protocol_config",
+      "params": {
+        "block_id": "HXn2QW9WLX7EHRUkMkq6pMnS9miokDUGMF1HpGdFsHro"
+      }
+    },
+    "at_utc": "2026-11-02T19:32:19.262Z",
+    "http": 200,
+    "bytes": 9650,
+    "sha256": "db1f6008bc6971a7a6c76eb502cfaf50373f15731088fd38acf7ae27800755bc",
+    "block_hash": "HXn2QW9WLX7EHRUkMkq6pMnS9miokDUGMF1HpGdFsHro",
+    "protocol_version": 86
+  },
+  "rules": {
+    "url": "https://nearhackathon.com/HACKATHON.md",
+    "sha256": "f4c07981fca7511d56060962d831154160889b72c7c9f6c3ed962c6cd9712795"
+  },
+  "finished_at_utc": "2026-11-02T19:32:19.422Z",
+  "status": {
+    "file": "data/raw/status.json",
+    "endpoint": "https://free.rpc.fastnear.com",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": "readonly-feasibility229",
+      "method": "status",
+      "params": []
+    },
+    "at_utc": "2026-11-02T19:26:27.958Z",
+    "http": 200,
+    "bytes": 4886,
+    "sha256": "ed6104a36b17bafe666a77f6bfb531c3ff73e8160a0ec9a3ba1360918bd44ffe",
+    "relation": "Earlier feasibility status, not contemporaneous with the later finalized sample anchor"
+  }
+}
